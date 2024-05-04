@@ -187,9 +187,8 @@ animations = [{
 "speed": 20.0
 }]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_o3ayi"]
-radius = 27.0
-height = 80.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v8utg"]
+size = Vector2(52, 54)
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 script = ExtResource("1_egstq")
@@ -202,6 +201,6 @@ autoplay = "default"
 frame_progress = 0.0513679
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-2, 0)
-shape = SubResource("CapsuleShape2D_o3ayi")
+position = Vector2(-1, 9)
+shape = SubResource("RectangleShape2D_v8utg")
 debug_color = Color(0, 0.588235, 0.760784, 0.592157)
