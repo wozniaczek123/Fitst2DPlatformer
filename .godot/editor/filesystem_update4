@@ -1,2 +1,11 @@
 res://main.tscn
 res://scenes/main_character.tscn
+res://scenes/collectable.tscn
+res://scenes/collectable.gd
+res://game_manager.gd
+res://scenes/finish.tscn
+res://scenes/main_menu.tscn
+res://scenes/level1.tscn
+res://scenes/main_menu.gd
+res://scenes/finish.gd
+res://scenes/level2.tscn

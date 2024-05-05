@@ -1,3 +1,6 @@
+res://scenes
+res://src
+res://
 /home/kuczka/GDOT/Tutorial2D/export
 /home/kuczka/GDOT
 /usr/lib/jvm/java-17-openjdk-amd64
@@ -5,6 +8,3 @@
 /home/kuczka/Android/Sdk
 /home/kuczka/android-studio/bin
 /home/kuczka/android-studio
-res://src
-res://scenes
-res://

@@ -1,7 +1,14 @@
-AnimatedSprite2D
+Button
+TextureRect
+Label
+Panel
+CanvasLayer
+Node
 CollisionShape2D
+Area2D
 Sprite2D
+AnimatedSprite2D
+XRAnchor3D
+Camera2D
 CharacterBody2D
 TileMap
-TextureRect
-Node
