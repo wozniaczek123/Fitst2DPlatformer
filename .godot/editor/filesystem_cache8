@@ -1,5 +1,5 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1714911441
+::res://::1714922080
 export_presets.cfg::TextFile::-1::1714767834::0::1::::<><>::
 game_manager.gd::GDScript::-1::1714910869::0::1::::<>Node<>::
 icon.svg::CompressedTexture2D::5264898401148491467::1714655981::1714655987::1::::<><>::
@@ -209,16 +209,18 @@ Idle.png::CompressedTexture2D::6505853877207514696::1569399024::1714659607::1:::
 ::res://Free/Traps/Trampoline/::1714659607
 Idle.png::CompressedTexture2D::7416738890202094473::1569191364::1714659607::1::::<><>::
 Jump (28x28).png::CompressedTexture2D::1365844281279977089::1569191352::1714659607::1::::<><>::
-::res://scenes/::1714911274
+::res://scenes/::1714912257
 collectable.gd::GDScript::-1::1714907692::0::1::::<>Area2D<>::
-collectable.tscn::PackedScene::3159192923344920790::1714910998::0::1::::<><>::uid://cfhb7cl4ummyj::::res://src/Cherries.png<>res://scenes/collectable.gd
-finish.tscn::PackedScene::475522697860058222::1714910998::0::1::::<><>::uid://esmmcxkmato3::::res://src/End (Idle).png
-level1.tscn::PackedScene::8948247068232271574::1714910998::0::1::::<><>::uid://cpya6a0ehghow::::res://src/Green.png<>uid://db4snwtbx62kl::::res://src/Terrain (16x16).png<>uid://blalpfpalx8fa::::res://scenes/collectable.tscn<>uid://d12vc8w5jmmxl::::res://scenes/main_character.tscn<>res://game_manager.gd<>uid://g1l13q740f3k::::res://scenes/finish.tscn
-level2.tscn::PackedScene::4734969508136529348::1714911159::0::1::::<><>::res://game_manager.gd<>uid://cpya6a0ehghow::::res://src/Green.png<>uid://db4snwtbx62kl::::res://src/Terrain (16x16).png<>uid://d12vc8w5jmmxl::::res://scenes/main_character.tscn<>uid://blalpfpalx8fa::::res://scenes/collectable.tscn<>uid://g1l13q740f3k::::res://scenes/finish.tscn
+collectable.tscn::PackedScene::3159192923344920790::1714912222::0::1::::<><>::uid://cfhb7cl4ummyj::::res://src/Cherries.png<>res://scenes/collectable.gd
+finish.gd::GDScript::-1::1714912106::0::1::::<>Area2D<>::
+finish.tscn::PackedScene::475522697860058222::1714912222::0::1::::<><>::res://scenes/finish.gd<>uid://esmmcxkmato3::::res://src/End (Idle).png
+level1.tscn::PackedScene::8948247068232271574::1714912222::0::1::::<><>::res://game_manager.gd<>uid://cpya6a0ehghow::::res://src/Green.png<>uid://db4snwtbx62kl::::res://src/Terrain (16x16).png<>uid://d12vc8w5jmmxl::::res://scenes/main_character.tscn<>uid://blalpfpalx8fa::::res://scenes/collectable.tscn<>uid://g1l13q740f3k::::res://scenes/finish.tscn<>uid://b8pwix7jehx7q::::res://scenes/level2.tscn
+level2.tscn::PackedScene::4734969508136529348::1714912257::0::1::::<><>::res://game_manager.gd<>uid://cpya6a0ehghow::::res://src/Green.png<>uid://db4snwtbx62kl::::res://src/Terrain (16x16).png<>uid://d12vc8w5jmmxl::::res://scenes/main_character.tscn<>uid://blalpfpalx8fa::::res://scenes/collectable.tscn<>uid://g1l13q740f3k::::res://scenes/finish.tscn<>uid://c4slnhw74k1kx::::res://scenes/main_menu.tscn
 main_character.gd::GDScript::-1::1714664977::0::1::::<>CharacterBody2D<>::
-main_character.tscn::PackedScene::9041190582095492601::1714910998::0::1::::<><>::res://scenes/main_character.gd<>uid://j6bm1avvjp3d::::res://src/Jump (32x32).png<>uid://cm8283lghuyxp::::res://src/Idle (32x32).png<>uid://bqmdd8vxo3u7c::::res://src/Run (32x32).png
-main_menu.tscn::PackedScene::6846168137845670899::1714911274::0::1::::<><>::
-::res://src/::1714911441
+main_character.tscn::PackedScene::9041190582095492601::1714912222::0::1::::<><>::res://scenes/main_character.gd<>uid://j6bm1avvjp3d::::res://src/Jump (32x32).png<>uid://cm8283lghuyxp::::res://src/Idle (32x32).png<>uid://bqmdd8vxo3u7c::::res://src/Run (32x32).png
+main_menu.gd::GDScript::-1::1714911867::0::1::::<>Node<>::
+main_menu.tscn::PackedScene::6846168137845670899::1714912222::0::1::::<><>::res://scenes/main_menu.gd<>uid://cy0gfm5qw7ndn::::res://src/Brown.png<>uid://bcl1s017bfn3g::::res://src/cooltext457556268083820.png
+::res://src/::1714911442
 Brown.png::CompressedTexture2D::6509356966858570247::1566218896::1714911442::1::::<><>::
 Cherries.png::CompressedTexture2D::5138354215636894825::1566474146::1714891323::1::::<><>::
 cooltext457556268083820.png::CompressedTexture2D::2551118667070190378::1714911330::1714911359::1::::<><>::
